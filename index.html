@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Ramais HCB</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Ramal.png" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lista de Ramais HCB</h1>
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Filtrar por setor ou ramal...">
+                <select id="categoryFilter">
+                    <option value="todos">Todos os Setores</option>
+                    <option value="setores">Setores HCB</option>
+                    <option value="recepcao">Recepção HCB</option>
+                    <option value="exames">Exames</option>
+                    <option value="oncologia">Oncologia</option>
+                    <option value="facilidades">Facilidades</option>
+                </select>
+            </div>
+        </header>
+
+        <main>
+            <section id="setores" class="ramal-section">
+                <h2>RAMAIS SETORES HCB</h2>
+                <div class="ramal-grid">
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">ALMOXARIFADO</div>
+                        <div class="ramal-number">2029</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">AGÊNCIA TRANSFUSIONAL</div>
+                        <div class="ramal-number">2080</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">ASSISTÊNCIA SOCIAL / PSICOLOGIA</div>
+                        <div class="ramal-number">2095</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">AUDITORIA</div>
+                        <div class="ramal-number">2092</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CENTRAL AGENDAMENTOS CONSULTAS</div>
+                        <div class="ramal-number">2094</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CENTRAL C.M.E. ESTERELIZADO</div>
+                        <div class="ramal-number">2044</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CENTRO CIRÚRGICO</div>
+                        <div class="ramal-number">2067</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CLÍNICA ALA DE CONVÊNIOS</div>
+                        <div class="ramal-number">2022</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CLÍNICA CIRÚRGICA</div>
+                        <div class="ramal-number">2024</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CLÍNICA MÉDICA E VASCULAR</div>
+                        <div class="ramal-number">2026</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CLÍNICA ORTOPÉDICA</div>
+                        <div class="ramal-number">2023</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CLÍNICA PEDIÁTRICA</div>
+                        <div class="ramal-number">2022</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">CONTROLE DE ACESSO</div>
+                        <div class="ramal-number">2091</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">COREME / CLÍNICA MÉDICA</div>
+                        <div class="ramal-number">2104</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">COREME / SALA DE REUNIÕES</div>
+                        <div class="ramal-number">2030</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">ENFERMAGEM GERÊNCIA (THAMARA)</div>
+                        <div class="ramal-number">2048</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">ENGENHARIA INFRA. / MANUTENÇÃO</div>
+                        <div class="ramal-number">2027</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">FARMÁCIA</div>
+                        <div class="ramal-number">2043</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">FARMÁCIA (COORDENAÇÃO)</div>
+                        <div class="ramal-number">2042</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">FATURAMENTO</div>
+                        <div class="ramal-number">2038</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">FINANCEIRO</div>
+                        <div class="ramal-number">2046</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">FINANCEIRO (DIRETORIA)</div>
+                        <div class="ramal-number">2045</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">HEMODINÂMICA</div>
+                        <div class="ramal-number">2083</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">HIGIENIZAÇÃO</div>
+                        <div class="ramal-number">2031</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">HIPERBÁRICA</div>
+                        <div class="ramal-number">2079</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">INFORMÁTICA / T.I</div>
+                        <div class="ramal-number">2016</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">JURÍDICO</div>
+                        <div class="ramal-number">2032</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">LANCHONETE (DIDA)</div>
+                        <div class="ramal-number">2025</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">LAVANDERIA CRÍTICA</div>
+                        <div class="ramal-number">2041</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">LAVANDERIA LIMPA</div>
+                        <div class="ramal-number">2040</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">NUTRIÇÃO</div>
+                        <div class="ramal-number">2085</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">PRÉ-PARTO</div>
+                        <div class="ramal-number">2039</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">RECURSOS HUMANOS (ATENDIMENTO)</div>
+                        <div class="ramal-number">2032</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">RECURSOS HUMANOS (GERÊNCIA)</div>
+                        <div class="ramal-number">2090</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">RESIDÊNCIA (ALOJAMENTO)</div>
+                        <div class="ramal-number">2068</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">SALA KATIELLY</div>
+                        <div class="ramal-number">2033</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">SCIRAS/GRSS</div>
+                        <div class="ramal-number">2082</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UCP</div>
+                        <div class="ramal-number">2100</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UNIDADE CARDIOLÓGICA</div>
+                        <div class="ramal-number">2093</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UTI CIRÚRGICA</div>
+                        <div class="ramal-number">2034</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UTI KELYM LOPES / 1°ANDAR</div>
+                        <div class="ramal-number">2087</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UTI NEONATAL</div>
+                        <div class="ramal-number">2036</div>
+                    </div>
+                    <div class="ramal-item" data-category="setores">
+                        <div class="ramal-name">UTI PEDIÁTRICA</div>
+                        <div class="ramal-number">2035</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recepcao" class="ramal-section">
+                <h2>RAMAIS RECEPÇÃO HCB</h2>
+                <div class="ramal-grid">
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">RECEPÇÃO HCB (ATENDIMENTO)</div>
+                        <div class="ramal-number">2000 / 2001</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">RECEPÇÃO HCB (COORDENAÇÃO)</div>
+                        <div class="ramal-number">2075</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 01 - INTERNAMENTO</div>
+                        <div class="ramal-number">2010</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 02 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2011</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 03 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2012</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 04 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2014</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 05 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2015</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 06 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2015</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 07 - APOIO USINA CORURIPE</div>
+                        <div class="ramal-number">2020</div>
+                    </div>
+                    <div class="ramal-item" data-category="recepcao">
+                        <div class="ramal-name">SALA 10 - CONSULTÓRIO</div>
+                        <div class="ramal-number">2018</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="exames" class="ramal-section">
+                <h2>EXAMES</h2>
+                <div class="ramal-grid">
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">ELETROCARDIOGRAMA (ECG)</div>
+                        <div class="ramal-number">2017</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">ENDOSCOPIA</div>
+                        <div class="ramal-number">2076</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">LABORATÓRIO AMBULATORIAL</div>
+                        <div class="ramal-number">2019</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">LABORATÓRIO GERAL</div>
+                        <div class="ramal-number">2004</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">OFTALMO</div>
+                        <div class="ramal-number">2021</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">RAIO-X</div>
+                        <div class="ramal-number">2064</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">RESSONÂNCIA</div>
+                        <div class="ramal-number">2086</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">TESTE ERGOMETRICO</div>
+                        <div class="ramal-number">2077</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">TOMOGRAFIA</div>
+                        <div class="ramal-number">2078</div>
+                    </div>
+                    <div class="ramal-item" data-category="exames">
+                        <div class="ramal-name">ULTRASSOM(DR.ALEXANDRE)</div>
+                        <div class="ramal-number">-</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="oncologia" class="ramal-section">
+                <h2>ONCOLOGIA</h2>
+                <div class="ramal-grid">
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">ALA ONCOLOGIA</div>
+                        <div class="ramal-number">2120</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">ALA ONCOLOGIA - SALA</div>
+                        <div class="ramal-number">2119</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">FARMÁCIA</div>
+                        <div class="ramal-number">-</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">ONCOLOGIA COORDENAÇÃO</div>
+                        <div class="ramal-number">2071</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">QT ADULTO</div>
+                        <div class="ramal-number">2062</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">QT INFANTIL</div>
+                        <div class="ramal-number">2063</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">RECEPÇÃO ONCOLOGIA</div>
+                        <div class="ramal-number">2060</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">RECEPÇÃO ONCOLOGIA - LATERAL</div>
+                        <div class="ramal-number">2061</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 1</div>
+                        <div class="ramal-number">2052</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 2</div>
+                        <div class="ramal-number">2049</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 3</div>
+                        <div class="ramal-number">2050</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 4</div>
+                        <div class="ramal-number">2051</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 5</div>
+                        <div class="ramal-number">2053</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 6</div>
+                        <div class="ramal-number">2059</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 7</div>
+                        <div class="ramal-number">2056</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 8</div>
+                        <div class="ramal-number">2055</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">CONSULTÓRIO 9</div>
+                        <div class="ramal-number">2054</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">URGÊNCIA ADULTO</div>
+                        <div class="ramal-number">2074</div>
+                    </div>
+                    <div class="ramal-item" data-category="oncologia">
+                        <div class="ramal-name">URGÊNCIA INFANTIL</div>
+                        <div class="ramal-number">-</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="facilidades" class="ramal-section">
+                <h2>FACILIDADES</h2>
+                <div class="ramal-grid facilidades-grid">
+                    <div class="ramal-item facilidade-item" data-category="facilidades">
+                        <div class="ramal-name">TRANSFERÊNCIA DE CHAMADA</div>
+                        <div class="ramal-instruction">FLASH + NÚMERO RAMAL + DESLIGAR</div>
+                        <div class="ramal-description">- Transfere ligações entre ramais -</div>
+                    </div>
+                    <div class="ramal-item facilidade-item" data-category="facilidades">
+                        <div class="ramal-name">CAPTURA CHAMADA RAMAL</div>
+                        <div class="ramal-instruction">* + 50 + * + NÚMERO RAMAL CHAMADO + #</div>
+                        <div class="ramal-description">- Captura qualquer chamada -</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Lista de Ramais HCB - Atualizada em 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
